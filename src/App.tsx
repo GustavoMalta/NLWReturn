@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import { Widget } from './components/Widget'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,8 +7,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Header</h1>
+        
       </header>
+        <Widget/>
     </div>
   )
 }
